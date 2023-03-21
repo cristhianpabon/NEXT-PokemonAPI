@@ -1,5 +1,5 @@
 export function getAllPokemonIds() {
-  const count = 1281;
+  const count = 300;
   const arrayIds = [];
 
   for (let index = 1; index <= count; index++) {

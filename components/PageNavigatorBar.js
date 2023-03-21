@@ -8,13 +8,19 @@ export default function PageNavigatorBar({ page, setPage }) {
   };
 
   const handleNextPage = () => {
-    setPage(page + 1);
+    if (page < 25) {
+      setPage(page + 1);
+    }
   };
 
   return (
     <div className={styles.pageNavigator}>
-      <p className={styles.pageNavigatorButton} onClick={handleBackPage}>Back</p>
-      <p className={styles.pageNavigatorButton} onClick={handleNextPage}>Next</p>
+      <p className={styles.pageNavigatorButton} onClick={handleBackPage}>
+        Back
+      </p>
+      <p className={styles.pageNavigatorButton} onClick={handleNextPage}>
+        Next
+      </p>
     </div>
   );
 }
