@@ -1,0 +1,66 @@
+.navbar {
+  padding: 20px 100px;
+  background-color: #d14344;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pokeScanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pokeScannerBlue {
+  border-radius: 150px;
+  width: 50px;
+  height: 50px;
+  border: 5px solid #ffffff;
+  background-color: #6794cb;
+  margin-right: 20px;
+}
+
+.pokeScannerRed {
+  border-radius: 150px;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #000000;
+  background-color: #f94748;
+  margin-right: 10px;
+}
+
+.pokeScannerYellow {
+  border-radius: 150px;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #000000;
+  background-color: #fbab1d;
+  margin-right: 10px;
+}
+
+.pokeScannerGreen {
+  border-radius: 150px;
+  width: 17px;
+  height: 17px;
+  border: 2px solid #000000;
+  background-color: #88c039;
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+  .navbar {
+    padding: 20px 40px;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 599px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+}

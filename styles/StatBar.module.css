@@ -1,0 +1,21 @@
+.stat {
+  margin-bottom: 10px;
+}
+
+.statTitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.statBar {
+  border-radius: 30px;
+  background-color: #dadada;
+}
+
+.statBarQuantity {
+  height: 100%;
+  padding: 3px;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #3d9707;
+}

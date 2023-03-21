@@ -1,0 +1,41 @@
+.backButtonBar {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+}
+
+.backButtonBar a {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #d14344;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0px;
+  width: 20%;
+  display: inline-block;
+}
+
+.backButtonBar a:hover {
+  background-color: #aa302e;
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+  .backButtonBar a {
+    width: 30%;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 599px) {
+  .backButtonBar a {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .backButtonBar a {
+    width: 50%;
+  }
+}

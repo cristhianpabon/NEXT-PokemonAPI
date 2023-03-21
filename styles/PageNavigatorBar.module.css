@@ -1,0 +1,43 @@
+.pageNavigator {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+}
+
+.pageNavigatorButton {
+  border-radius: 10px;
+  background-color: #d14344;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px 0px;
+  width: 30%;
+}
+
+.pageNavigatorButton:hover {
+  background-color: #aa302e;
+}
+
+@media (min-width: 600px) and (max-width: 1025px) {
+  .pageNavigatorButton {
+    width: 45%;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 599px) {
+  .pageNavigatorButton {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 435px) {
+  .pageNavigatorButton {
+    width: 48%;
+  }
+}
